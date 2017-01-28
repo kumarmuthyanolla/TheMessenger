@@ -1,0 +1,38 @@
+[
+  {
+    "recipient": "Arun",
+    "sender": "Nanda",
+    "title": "This is a sample message to Arun.",
+    "description": "This is a sample description to the message",
+    "important": 1
+  },
+    {
+    "recipient": "Arun",
+    "sender": "Nandu",
+    "title": "This is a sample message to Arun.",
+    "description": "This is a sample description to the message",
+    "important": 1
+  },
+  {
+    "recipient": "Arun_1",
+    "sender": "Arun",
+    "title": "This is a sample message to Arun.",
+    "description": "This is a sample description to the message",
+    "important": 0
+  },
+  {
+    "recipient": "Sandeep",
+    "sender": "Sravya",
+    "title": "This is a sample message to Arun.",
+    "description": "This is a sample description to the message",
+    "important": 1
+  },
+  {
+    
+    "recipient": "Nanna",
+    "sender": "Amma",
+    "title": "This is a sample message to Arun.",
+    "description": "This is a sample description to the message",
+    "important": 0
+  }
+]

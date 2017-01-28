@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <style>
+body {
+    background-color: lightblue;
+    background-image: url(BFBC2V_Clean_Background_1080P.png);
+}
+</style>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="Script.js"></script>
+</head>
+<body ng-app="mymodule" ng-controller="myCtrl" class="container">
+    <img src="Capture2.PNG" height="200px" width="75%"><br/><br/>
+    <div ng-show="!contents" style="margin-top:40px""text-align='center'">
+        <a class="btn btn-primary" href="#loginindex/">Sign In</a>
+        <a class="btn btn-primary" href="#Signup/">Sign Up</a> 
+    </div>  
+    <div ng-show="contents" class="btn-group btn-group-justified">    
+        <a class="btn btn-primary" href="#profile/">Profile</a>
+        <a class="btn btn-primary" href="#messages/">Messages</a>
+        <a class="btn btn-primary" href="#Logout/">Logout</a>
+    </div>
+           <ng-view></ng-view>   
+</body>
+</html>

@@ -1,0 +1,20 @@
+<div ng-controller="MessagesController" ng-repeat="m in filteredArray" style="border:solid white""border-margin:10px"><br/><br/>
+    <div style="color:white;font-size:100%">
+        <p>Sender : {{m.sender}}</p>
+        <div>Subject: {{m.title}}</div><br/>
+        <div ng-show="custom">Description:{{m.description}}</div>
+        <img ng-show="image" src="star.png" height="15" width="15">
+    </div> 
+    <div ng-show="reply">
+        <input type=text ng-model="toperson">
+        <input type=text ng-model="replySubject">
+        <input type=text ng-model="replyText">
+        <input type="button" value="Send" ng-click="Send($index, toperson, replySubject, replyText)">
+    </div><br/><br/>
+    <div class="container" style="padding:10px">
+    <input type="button" class="btn btn-primary" value="Reply" ng-click="Reply($index)">
+    <input type="button" class="btn btn-primary" value="Delete" ng-click="MsgDelete($index)">
+    <input type="button" class="btn btn-primary" value="Show More" ng-click="more()">
+    <input type="button" class="btn btn-primary" value="Mark" ng-click="SetImportant()">
+    </div>
+</div>

@@ -1,0 +1,29 @@
+[
+  {
+    "Username": "Arun",
+    "Password": 1234,
+    "Firstname": "Arungopan",
+    "Lastname": "Gopakumar",
+    "Email": "arun.gopan@marlabs.com",
+    "Location": "Piscataway",
+    "Phone": 3432432432
+  },
+  {
+    "Username": "Arun_1",
+    "Password": 1234,
+    "Firstname": "Arungopan",
+    "Lastname": "Gopakumar",
+    "Email": "arun.gopan@marlabs.com",
+    "Location": "Piscataway",
+    "Phone": 3432432432
+  },
+  {
+    "Username": "Arun_2",
+    "Password": 1234,
+    "Firstname": "Arungopan",
+    "Lastname": "Gopakumar",
+    "Email": "arun.gopan@marlabs.com",
+    "Location": "Piscataway",
+    "Phone": 3432432432
+  }
+]
